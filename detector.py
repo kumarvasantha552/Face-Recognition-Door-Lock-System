@@ -16,9 +16,9 @@ while True:
         if id==1:
             cv2.putText(img,"vasanth",(x,y+h), font, 4,(255,0,0),2,cv2.LINE_AA)
         elif id ==2:
-            cv2.putText(img,"nithi",(x,y+h), font, 4,(255,0,0),2,cv2.LINE_AA)
+            cv2.putText(img,"person2",(x,y+h), font, 4,(255,0,0),2,cv2.LINE_AA)
         elif id ==3:
-            cv2.putText(img,"naugthy_boy",(x,y+h), font, 4,(255,0,0),2,cv2.LINE_AA)
+            cv2.putText(img,"person1",(x,y+h), font, 4,(255,0,0),2,cv2.LINE_AA)
         else:
             cv2.putText(img,"unknown",(x,y+h), font, 4,(255,0,0),2,cv2.LINE_AA)
         pass
